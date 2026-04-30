@@ -86,7 +86,7 @@ function DashboardContent({ onLogout }) {
         <div className="sidebar-logo">
           <img src={hotelLogo2} alt="Hotel Logo" />
         </div>
-        <h2>Hollister Inn</h2>
+        <h2>Motel 6</h2>
 
         <nav>
           <button
