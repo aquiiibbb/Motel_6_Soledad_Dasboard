@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './login.css';
 
-const VALID_USERNAME = 'motel6soledad';
+const VALID_USERNAME = 'motel6';
 const VALID_PASSWORD = 'admin123';
 
 export default function Login({ onLogin }) {
