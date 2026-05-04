@@ -1,5 +1,44 @@
 /* Dashboard.css - Consistent Mobile Layout */
 
+
+/* Good Review Alert Styles */
+.good-review-alert {
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+}
+
+.alert-icon {
+  font-size: 16px;
+}
+
+.alert-text {
+  flex: 1;
+}
+
+/* Good Review Card Styling */
+.good-review-card {
+  border-left: 4px solid #4CAF50;
+  background: linear-gradient(135deg, #f8fff8, #ffffff);
+}
+
+/* Good Reviews Stat Card */
+.stat-card.good-reviews {
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  color: white;
+}
+
+.stat-card.good-reviews .stat-icon {
+  color: white;
+}
 * {
   margin: 0;
   padding: 0;
